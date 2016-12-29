@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name": "虫虫钢琴谱翻页插件",
+	"version": "1.0",
+	"description": "虫虫钢琴谱翻页插件 for Arisali北酱",
+	"content_scripts":[{
+		"matches":["http://www.gangqinpu.com/html/*.htm"],
+		"js":["flipPage.js"]
+	}]
+}
+
