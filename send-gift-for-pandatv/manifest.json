@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "熊猫tv自动插入文本插件",
+	"name": "熊猫赠送礼物插件",
 	"version": "1.0",
-	"description": "熊猫tv自动插入文本插件",
+	"description": "熊猫赠送礼物插件",
 	"background" : {
 		"scripts" : ["js/jquery.min.js", "js/background.js"]
 	},
@@ -14,6 +14,7 @@
 	],
 	"content_scripts":[{
 		"matches":["http://www.panda.tv/*"],
-		"js":["js/jquery.min.js", "js/lrc.js"]
+		"js":["js/jquery.min.js", "js/sendgift.js"]
 	}]
 }
+

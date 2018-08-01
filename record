@@ -1,0 +1,10 @@
+#/bin/bash
+while true
+do
+	filename="593983(`date +%F-%T`).flv"
+	#593983
+	flv_path="https://1go3nhcj1gczdncbifaaucqy.ourdvsss.com/pl3.live.panda.8686c.com/live_panda/e0df9ed824545a8965b673cbfe4bf1b6.flv?sign=9b75dc60068c4d50defedf61ea925ea5&ts=59f4bd43&rid=63473186&wshc_tag=0&wsts_tag=59f4bd44&wsid_tag=743616f4&wsiphost=ipdbm"
+	ffmpeg -i "$flv_path" -c copy "$filename"
+	echo "download failed, sleep 3s"
+	sleep 3s
+done

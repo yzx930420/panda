@@ -1,0 +1,102 @@
+https://mall.gate.panda.tv/ajax_gift_send?token=6fe97d92141b28b659dfe749bf3b08c9&giftid=5971821cea3d18043956b8bf&giftname=%E4%B9%88%E4%B9%88%E5%93%92&hostid=3013766&hostname=%E8%BF%87%E6%B0%94%E7%9A%84%E5%8C%97%E9%85%B1&giftcount=1&price=2&total=2&roomid=10787&bamboo=6&exp=0.4&range=&__plat=pc_web&_=1504795224772
+https://mall.gate.panda.tv/ajax_gift_send?token=6fe97d92141b28b659dfe749bf3b08c9&giftid=5902f3cabfd0777265a48cf2&giftname=%E6%AF%94%E5%BF%83&hostid=3013766&hostname=%E8%BF%87%E6%B0%94%E7%9A%84%E5%8C%97%E9%85%B1&giftcount=1&price=1&total=1&roomid=10787&bamboo=3&exp=0.2&range=&__plat=pc_web&_=1504795224777
+https://mall.gate.panda.tv/ajax_gift_send?token=b827a8a5d7cd05b7716f7ee12d479ea7&giftid=5902f3cabfd0777265a48cf2&giftname=%E6%AF%94%E5%BF%83&hostid=50710632&hostname=Z%E4%B8%B6%E8%AF%8D%E6%9B%B2&giftcount=1&price=1&total=1&roomid=593983&bamboo=3&exp=0.2&range=&__plat=pc_web&_=1504795196312
+https://mall.gate.panda.tv/ajax_gift_send?token=6fe97d92141b28b659dfe749bf3b08c9&giftid=5902f3cabfd0777265a48cf2&giftname=%E6%AF%94%E5%BF%83&hostid=3013766&hostname=%E8%BF%87%E6%B0%94%E7%9A%84%E5%8C%97%E9%85%B1&giftcount=11&price=1&total=11&roomid=10787&bamboo=33&exp=2.2&range=&__plat=pc_web&_=1504795224784
+https://mall.gate.panda.tv/ajax_gift_send?token=6fe97d92141b28b659dfe749bf3b08c9&giftid=5935241568b764120f5ffaff&giftname=%E5%9B%BD%E6%9C%8D%E7%AC%AC%E4%B8%80&hostid=33947496&hostname=%E5%A4%8F%E5%A4%A9Cary&giftcount=1&price=1&total=1&roomid=416293&bamboo=3&exp=0.2&range=&__plat=pc_web&_=1504797256158
+
+https://mall.gate.panda.tv/ajax_gift_send?token=6fe97d92141b28b659dfe749bf3b08c9&giftid=598009453c74f33495c9ef13&giftname=%E8%91%B1&hostid=7093450&hostname=%E5%A4%8F%E5%A4%A9%E5%A4%8F%E5%A4%A9%E5%A4%8F%E5%A4%A9%E8%A5%BF%E7%93%9C&giftcount=1&price=2&total=2&roomid=87411&bamboo=6&exp=0.4&range=&__plat=pc_web&_=1504797573713
+giftid=598009453c74f33495c9ef13
+giftname=%E8%91%B1
+hostid=
+$.ajax({
+        url: 'https://mall.gate.panda.tv/ajax_gift_send?token=b827a8a5d7cd05b7716f7ee12d479ea7&giftid=59c4efc8b5061c7d30515cdf&giftname=%E7%8E%AB%E7%91%B0%E8%8A%B1&hostid=50710632&hostname=Z%E4%B8%B6%E8%AF%8D%E6%9B%B2&giftcount=1&price=199&total=199&roomid=593983&bamboo=600&exp=40&range=&__plat=pc_web&_=1506253142888',
+        type: 'GET',
+        success: function (result) {
+        	console.log(result);
+        },
+        error: function (e) {
+        	console.log("error");
+        }
+    });
+
+荧光棒
+    https://mall.gate.panda.tv/ajax_gift_send?token=b827a8a5d7cd05b7716f7ee12d479ea7&giftid=59c4f13b3c74f33b04dc5840&giftname=%E8%8D%A7%E5%85%89%E6%A3%92&hostid=50710632&hostname=Z%E4%B8%B6%E8%AF%8D%E6%9B%B2&giftcount=1&price=5&total=5&roomid=593983&bamboo=15&exp=1&range=&__plat=pc_web&_=1507557758793
+
+玫瑰
+    https://mall.gate.panda.tv/ajax_gift_send?token=b827a8a5d7cd05b7716f7ee12d479ea7&giftid=59c4efc8b5061c7d30515cdf&giftname=%E7%8E%AB%E7%91%B0%E8%8A%B1&hostid=50710632&hostname=Z%E4%B8%B6%E8%AF%8D%E6%9B%B2&giftcount=1&price=199&total=199&roomid=593983&bamboo=600&exp=40&range=&__plat=pc_web&_=1506253142888
+
+    https://mall.gate.panda.tv/ajax_gift_send
+    ?token=b827a8a5d7cd05b7716f7ee12d479ea7
+    &giftid=59c4efc8b5061c7d30515cdf
+    &giftname=%E7%8E%AB%E7%91%B0%E8%8A%B1
+    &hostid=50710632
+    &hostname=Z%E4%B8%B6%E8%AF%8D%E6%9B%B2
+    &giftcount=1
+    &price=199
+    &total=199
+    &roomid=593983
+    &bamboo=600
+    &exp=40
+    &range=&__plat=pc_web&_=1506253142888
+
+
+var giftMap = {}
+
+giftMap[]
+
+var userInfo = {
+    "token" : "b827a8a5d7cd05b7716f7ee12d479ea7",
+}
+
+var roomInfo = {
+    "hostid" : 50710632,
+    "hostname" : "Z丶词曲",
+    "roomid" : 593983
+}
+
+var giftMap = {}
+
+var giftBixin = {
+    "giftid" : "5902f3cabfd0777265a48cf2",
+    "giftname" : "比心",
+    "price" : 1,
+    "bamboo" : 3,
+    "exp" : 0.2
+}
+var giftMap["比心"] = giftBixin
+
+
+
+function buildGiftUrl(userInfo, roomInfo, giftInfo) {
+    var url = "https://mall.gate.panda.tv/ajax_gift_send"
+    url += "?token=" + userInfo["token"]
+    url += "&giftid=" + giftInfo["giftid"]
+    url += "&giftname=" + encodeURI(giftInfo["giftname"])
+    url += "&hostid=" + parseInt(roomInfo["hostid"])
+    url += "&hostname=" + encodeURI(roomInfo["hostname"])
+    url += "&giftcount=" + parseInt(1)
+    url += "&price=" + parseInt(giftInfo["price"])
+    url += "&total=" + parseInt(giftInfo["price"])
+    url += "&roomid=" + parseInt(roomInfo["roomid"])
+    url += "&bamboo=" + parseInt(giftInfo["bamboo"])
+    url += "&exp" + parseFloat(giftInfo["exp"])
+    url += "&range=&__plat=pc_web&_=" + parseInt(new Date().getTime())
+    return url
+}
+
+function sendGift(userInfo, roomInfo, giftInfo, number) {
+    var url = buildGiftUrl(userInfo, roomInfo, giftInfo)
+    $.ajax({
+        url: url,
+        type: 'GET',
+        success: function (result) {
+            console.log(result);
+        },
+        error: function (e) {
+            console.log("error");
+        }
+    });
+}
+
+
+

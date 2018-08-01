@@ -1,0 +1,21 @@
+$(document).ready(function() {
+	$("#tail-area").val(chrome.extension.getBackgroundPage().get_tail_text());
+});
+$("#start-click-btn").click(function(){
+	chrome.extension.getBackgroundPage().start_click();
+});
+$("#stop-click-btn").click(function(){
+	chrome.extension.getBackgroundPage().stop_click();
+});
+$("#start-auto-btn").click(function(){
+	chrome.extension.getBackgroundPage().start_auto();
+});
+$("#stop-auto-btn").click(function(){
+	chrome.extension.getBackgroundPage().stop_auto();
+});
+$("#set-tail-btn").click(function(){
+	chrome.extension.getBackgroundPage().set_tail($("#tail-area").val());
+});
+$("#tail-area").change(function(){
+	chrome.extension.getBackgroundPage().cache_tail($("#tail-area").val());
+})
